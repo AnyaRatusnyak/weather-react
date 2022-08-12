@@ -43,17 +43,12 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <div className="clearfix weather-temperature">
-            <img
-              src={weatherData.imgUrl}
-              alt={weatherData.description}
-              className="float-left"
-            />
-            <div className="float-left">
-              <strong>{weatherData.temperature}</strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
-            </div>
+            <img src={weatherData.imgUrl} alt={weatherData.description} />
+
+            <strong>{weatherData.temperature}</strong>
+            <span className="units">
+              <a href="/">°C</a> | <a href="/">°F</a>
+            </span>
           </div>
         </div>
         <div className="col-6">
