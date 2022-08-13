@@ -8,14 +8,7 @@ export default function App() {
       <div className="container">
         <Weather />
         <footer>
-          <a
-            href="https://github.com/AnyaRatusnyak/weather-react.git"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Open-source code
-          </a>
-          ,by{" "}
+          This project was coded by{" "}
           <a
             href="https://github.com/AnyaRatusnyak"
             target="_blank"
@@ -23,13 +16,13 @@ export default function App() {
           >
             Anna Ratushnyak
           </a>{" "}
-          from{" "}
+          and is{" "}
           <a
-            href="https://www.shecodes.io"
+            href="https://github.com/AnyaRatusnyak/weather-react.git"
             target="_blank"
             rel="noopener noreferrer"
           >
-            SheCodes
+            open-sourced on GitHub
           </a>
         </footer>
       </div>

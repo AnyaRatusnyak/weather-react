@@ -46,9 +46,7 @@ export default function Weather() {
             <img src={weatherData.imgUrl} alt={weatherData.description} />
 
             <strong>{weatherData.temperature}</strong>
-            <span className="units">
-              <a href="/">°C</a> | <a href="/">°F</a>
-            </span>
+            <span className="units">°C</span>
           </div>
         </div>
         <div className="col-6">
