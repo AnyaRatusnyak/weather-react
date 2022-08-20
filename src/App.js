@@ -7,6 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="New York" />
+
         <footer>
           This project was coded by{" "}
           <a
@@ -23,6 +24,14 @@ export default function App() {
             rel="noopener noreferrer"
           >
             open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://graceful-cat-af8216.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
